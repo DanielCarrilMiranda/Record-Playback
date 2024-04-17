@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Find a place</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35b945fd-67c6-4bdc-9815-91cc69ecc351</testCaseGuid>
+   <variable>
+      <defaultValue>'Madrid'</defaultValue>
+      <description></description>
+      <id>a6f24332-dcab-492c-b19c-3309d53aacaf</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'alojamientos en Centro'</defaultValue>
+      <description></description>
+      <id>d8199a14-2bf6-48c6-bd88-bad2ab36b654</id>
+      <masked>false</masked>
+      <name>expectedResoult</name>
+   </variable>
+</TestCaseEntity>

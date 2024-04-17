@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Chekin</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>96e9226f-d374-49af-a1e7-a1dfce0f1060</testSuiteGuid>
+   <testCaseLink>
+      <guid>26954273-e3e4-433f-8957-1f471b3f0248</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data-Driven Testing/Find a place</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0036741b-b493-4314-801e-6f841543fe6b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Excelfile_100cities</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0036741b-b493-4314-801e-6f841543fe6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>a6f24332-dcab-492c-b19c-3309d53aacaf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0036741b-b493-4314-801e-6f841543fe6b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResoult</value>
+         <variableId>d8199a14-2bf6-48c6-bd88-bad2ab36b654</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
